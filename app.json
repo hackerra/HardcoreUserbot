@@ -80,7 +80,7 @@
       "required": false
     },
     "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
+      "description": "For Carbon.py. Leave k as it is. ",
       "value": "/app/.apt/usr/bin/google-chrome",
       "required": false
     },
