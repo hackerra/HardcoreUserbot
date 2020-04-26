@@ -2,9 +2,9 @@ from telethon import events
 import requests
 from uniborg.util import admin_cmd
 
-LOG = telethon.getLogger(__name__)  # logger object
+LOG = borg.getLogger(__name__)  # logger object
 
-CHANNEL = telethon.getCLogger(__name__)  # channel logger object
+CHANNEL = borg.getCLogger(__name__)  # channel logger object
 
 
 @borg.on(admin_cmd("dic (.*)"))
