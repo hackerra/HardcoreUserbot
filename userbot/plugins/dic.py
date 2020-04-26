@@ -2,10 +2,6 @@ from telethon import events
 import requests
 from uniborg.util import admin_cmd
 
-LOG = userbot.getLogger(__name__)  # logger object
-
-CHANNEL = userbot.getCLogger(__name__)  # channel logger object
-
 
 @borg.on(admin_cmd("dic (.*)"))
 async def dictionary(message: Message):
