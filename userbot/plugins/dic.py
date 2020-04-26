@@ -4,7 +4,7 @@ from uniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("dic (.*)"))
-async def dictionary(message: Message):
+async def dictionary(events):
     LOG.info("starting dic command...")  # log to console
     input = message.input_str
 
