@@ -78,6 +78,9 @@ if bool(ENV):
     # OCR API key
     OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
 
+    # Genius lyrics get this value from https://genius.com/developers both has same values
+    GENIUS_API_TOKEN = os.environ.get("GENIUS_API_TOKEN", None)
+    
     # remove.bg API key
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
 
