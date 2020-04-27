@@ -81,6 +81,9 @@ if bool(ENV):
     # remove.bg API key
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
 
+    # Quotes API key
+    QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
+    
     # Chrome Driver and Headless Google Chrome Binaries
     CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
